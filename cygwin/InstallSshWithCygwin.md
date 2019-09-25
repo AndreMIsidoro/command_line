@@ -4,7 +4,7 @@
 
 3rd) If prompted with "CYGWIN=" type for following:
 
-tty ntsec
+	tty ntsec
 
 4th) Go to /etc/sshd_config to configure the sshd service:
 
