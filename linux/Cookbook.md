@@ -114,3 +114,6 @@
     Cntrl + Z # stops the current process
     bg # restarts the stopped process in background
 
+**Show size  of directory**
+
+	du -h -d 0 jenkins/
