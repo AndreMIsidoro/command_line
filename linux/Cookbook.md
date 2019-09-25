@@ -36,8 +36,12 @@
 
 	    CONFIRM_URL=$(wget -nv --spider $URL &>$LOG_FILE)
 
+        or
 
-**List all files in directory **
+        command > /dev/null 2>&1
+
+
+**List all files in directory**
 	
 	“path”/*
 
@@ -64,11 +68,49 @@
     done < "$filename"
 
 
-**Iterate Through files in Directory tree:**
+**Iterate Through files in Directory tree**
 
 
     for file in $(ls -R .);
     do
     echo $file
     done
+
+**Run a script in Debug mode**
+
+    bash -x script.sh
+
+
+**Delete all files except a specific file**
+
+	find . \! -name ‘nameoffilenottobedeleted’ -delete
+
+**Check free space on disk**
+
+	df -h
+
+**Merge Directories**
+
+    rsync -a vagrant/* /cygdrive/c/Users/support/ingg/vpp/vms
+
+
+**Escaping single quote inside a single quote string**
+
+    Use '"'"'
+
+    Example:
+	    vagrant ssh $VM_VPP_ID -c 'VAR_CONTAINER_ID=$(docker container ls | gawk '"'"'{for(i=1; i <=NF;i++){if ($i == \"bms-support-tool\"){print $1;}}}'"'"');
+
+
+**Install .deb**
+
+    dpkg -i <PATH_TO_DEB_FILE>
+    apt-get install -f
+
+
+**Create a job and send it to bg**
+
+    sudo virtualbox  # starts virtualbox
+    Cntrl + Z # stops the current process
+    bg # restarts the stopped process in background
 
