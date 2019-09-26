@@ -2,11 +2,11 @@
 
     Shift+A : go to insert mode with cursor at the end of the line
 
-**delete all lines of a file:**
+**Delete all lines of a file:**
 
 	:1,$d
 
-**copy text into vi editor:**
+**Copy text into vi editor:**
 
 	cntrl+shift+insert
 
