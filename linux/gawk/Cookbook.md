@@ -83,7 +83,7 @@
 
 **exit gawk**
 
-exit 1
+    exit 1
 
 **Delete line that matches a certain pattern:**
 
@@ -101,7 +101,7 @@ exit 1
     gawk END{print}
 
 
-###Examples of full gawk commands
+### Examples of full gawk commands
 
 
 **Count number of occurrences in file:**
