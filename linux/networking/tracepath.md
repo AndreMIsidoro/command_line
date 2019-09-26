@@ -3,17 +3,17 @@
 
 tracepath, tracepath6 - traces path to a network host discovering MTU along this path
 
-tracepath 
-	-p : port
+	tracepath 
+		-p : port
 
 
-Output
-root@mops:~ # tracepath6 3ffe:2400:0:109::2
-1?: [LOCALHOST]                              pmtu 1500
-1:  dust.inr.ac.ru                   0.411ms
-2:  dust.inr.ac.ru        asymm  1   0.390ms pmtu 1480
-2:  3ffe:2400:0:109::2               463.514ms reached
-	Resume: pmtu 1480 hops 2 back 2
+	Output
+	root@mops:~ # tracepath6 3ffe:2400:0:109::2
+	1?: [LOCALHOST]                              pmtu 1500
+	1:  dust.inr.ac.ru                   0.411ms
+	2:  dust.inr.ac.ru        asymm  1   0.390ms pmtu 1480
+	2:  3ffe:2400:0:109::2               463.514ms reached
+		Resume: pmtu 1480 hops 2 back 2
 
 
 The first column shows TTL of the probe, followed by colon. Usually value of TTL is obtained from reply from network, but sometimes reply does not contain necessary information and we have to guess it. In this case the number is followed by ?.
