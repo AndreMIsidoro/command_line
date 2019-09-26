@@ -1,4 +1,4 @@
-**Scan network with wildcards:**
+**Scan network with wildcards**
 
 	nmap 172.28.23.*
 
