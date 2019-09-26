@@ -117,3 +117,18 @@
 **Show size  of directory**
 
 	du -h -d 0 jenkins/
+
+**Execute multiple commands in one line**
+
+	$command1 ; command2 ; command3
+
+**Create a new empty file**
+
+    $> ls-output.txt
+
+
+**Wildcards Expansion**
+
+	Wildcards always expand in sorted order
+
+Script may not give shell prompt back if it does not end with #
