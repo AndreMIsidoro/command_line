@@ -1,0 +1,4 @@
+**Description**
+
+    Expect is a program that "talks" to other interactive programs according to a script.
+    Following the script, Expect knows what can be expected from a program and what the correct response should be.
