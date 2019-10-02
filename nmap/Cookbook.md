@@ -38,3 +38,11 @@
 
     nmap -T4 -p 1-1000 -oX output.xml scanme.nmap.org
     xsltproc output.xml -o output.html
+
+**Fast Discovery Scan**
+
+	nmap -T5 -sL 172.28.23.*
+
+	if -sL doens't work then
+
+	nmap -T5 -F 172.28.23.*
