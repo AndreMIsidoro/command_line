@@ -19,3 +19,11 @@
 
 	ssh-copy-id -i publicKey.pub user@host
 
+**Use ssh to capture packets of remote host and store them as a cap file on local Host**
+
+	ssh user@remoteHost -- “tcpdump -w - -s 65535 ‘not port 22’ “ > capture.pcap
+
+**Use ssh to capture packets of remote host and analyse them live through wireshark**
+
+	ssh user@remoteHost tcpdump -U -s 65535 -w - ‘not port 22’ | wireshark -k -i -
+
