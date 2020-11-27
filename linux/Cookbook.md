@@ -132,3 +132,7 @@
 	Wildcards always expand in sorted order
 
 Script may not give shell prompt back if it does not end with #
+
+**Pass the content of a fila as arguments to a command**
+	
+	python3 solution.py "$(< enc.txt)"
