@@ -9,3 +9,7 @@
 **Usage**
 
 	hexedit pathToBinaryFile
+
+**Search ASCII Strings**
+	Use tab to go to ascii strings.
+	Ctrl-S to search forward
