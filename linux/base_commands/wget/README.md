@@ -35,3 +35,9 @@ such a test with the --spider option:
 
 Notice that the output still has an OK at its end. However, the web address ends in
 error404.html. This indicates the web address is invalid.
+
+**Options**
+
+	-r 	recursive
+	-np 	don't follow links to parent directories
+	-k	 make links in downloaded HTML or CSS point to local files

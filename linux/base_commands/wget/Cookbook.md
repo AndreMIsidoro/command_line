@@ -36,3 +36,7 @@
 **Config File:**
 
     for i in $(seq 1 225); do wget --config=myConfigFile.txt URl/$i; done
+
+**Download all resources of the page**
+
+	wget -r -np -k http://www.testurl.com
