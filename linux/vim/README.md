@@ -24,3 +24,6 @@
     d stands for delete in Vim, which in other editors is usually called cut
     y stands for yank in Vim, which in other editors is usually called copy
 
+**Change letters to uppercase**
+
+	~ Toggles the case of the character under the cursor or all visually selected characters
