@@ -8,3 +8,4 @@ Supports C, C++, Go, Objectiv-C
 
 **Commands**
 	checksec : Shows which security protections are enabled in a binary
+	info functions : Shows the list of functions in the program
