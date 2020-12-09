@@ -27,3 +27,6 @@
 **Change letters to uppercase**
 
 	~ Toggles the case of the character under the cursor or all visually selected characters
+
+**Duplicate line**
+	yy to copy the line, or dd to delete the line then p to paste after the current line or P to past before the current line
