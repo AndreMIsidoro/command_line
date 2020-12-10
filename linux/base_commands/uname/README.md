@@ -6,5 +6,6 @@ Is most commonly used to determine the processor architecture, system hostname a
 ** Options
 
 	-a : prints all the information
+	-m : prints the machine hardware name
 
 
