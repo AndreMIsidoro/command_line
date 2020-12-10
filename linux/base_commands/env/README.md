@@ -1,0 +1,1 @@
+env is used to either print environment variables. It is also used to run a utility or command in a custom environment. In practice, env has another common use. It is often used by shell scripts to launch the correct interpreter.
