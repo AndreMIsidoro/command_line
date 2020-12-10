@@ -1,0 +1,5 @@
+uname prints the system and kernel information.
+
+Is most commonly used to determine the processor architecture, system hostname and the version of the kernel running on the system
+
+
