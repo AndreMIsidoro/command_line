@@ -7,5 +7,7 @@ Is most commonly used to determine the processor architecture, system hostname a
 
 	-a : prints all the information
 	-m : prints the machine hardware name
+	-r : prints the kernel release
+	-v : prints the kernel version
 
 
