@@ -35,3 +35,6 @@
 	Press v to enter visual mode
 	Selecte the desired lines
 	Press > to indent with tab
+
+**Redo**
+	Ctrl-r
