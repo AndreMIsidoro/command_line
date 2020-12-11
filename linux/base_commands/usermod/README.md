@@ -1,5 +1,5 @@
 modifies a user account
 
-**Options
+## Options
 	-L | --lock : Locks a user's password
 
