@@ -45,3 +45,8 @@
 **Show whitespaces characters**
 	
 	:set list
+
+**Insert New line and go into insert mode**
+
+	o - insert newline after
+	o - insert newline before
