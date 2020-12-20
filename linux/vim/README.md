@@ -41,3 +41,7 @@
 **Redo**
 
 	Ctrl-r
+
+**Show whitespaces characters**
+	
+	:set list
