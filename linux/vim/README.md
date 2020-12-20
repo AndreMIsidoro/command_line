@@ -46,6 +46,10 @@
 	
 	:set list
 
+You can also add the following to your .vimrc to get better whitespaces characters
+
+	:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 **Insert New line and go into insert mode**
 
 	o - insert newline after
