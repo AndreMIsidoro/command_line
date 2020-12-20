@@ -29,12 +29,15 @@
 	~ Toggles the case of the character under the cursor or all visually selected characters
 
 **Duplicate line**
+
 	yy to copy the line, or dd to delete the line then p to paste after the current line or P to past before the current line
 
 **Tab multiple lines**
+
 	Press v to enter visual mode
 	Selecte the desired lines
 	Press > to indent with tab
 
 **Redo**
+
 	Ctrl-r
