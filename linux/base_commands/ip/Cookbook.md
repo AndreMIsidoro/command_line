@@ -2,3 +2,7 @@
 
 	ip a
 	ip addr
+
+**Delete interface**
+
+	sudo ip link delete <interface_name>
