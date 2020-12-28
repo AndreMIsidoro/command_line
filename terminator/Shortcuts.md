@@ -9,3 +9,6 @@
     Move to the terminal below the current one: Alt + ↓
     Move to the terminal left of the current one: Alt + ←
     Move to the terminal right of the current one: Alt + →
+
+	Cntrl + Page Down|Page Up : Move to other tab
+	Cntrl + Tab : Cylcle through panels
