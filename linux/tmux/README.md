@@ -4,9 +4,18 @@ Tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 ## Shortcuts
 
+	#### General Shortcuts
+
 	Cntrl + B ? : Show all shortcuts available
+
+	#### Window Shortcuts
+
 	Cntrl + B c : Create a new window
-	Cntrl + B % : Vertical Split
-	Cntrl + B " : horizontal split
 	Cntrl + B n : Go to next window
 	Cntrl + B & : Kill Window
+
+	#### Pane Shortcuts
+
+	Cntrl + B % : Vertical Split
+	Cntrl + B " : horizontal split
+
