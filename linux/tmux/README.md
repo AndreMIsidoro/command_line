@@ -4,7 +4,7 @@ Tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 ## Shortcuts
 
-	** General Shortcuts **
+	**General Shortcuts**
 
 	Cntrl + B ? : Show all shortcuts available
 
