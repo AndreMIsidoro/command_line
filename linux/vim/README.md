@@ -43,12 +43,11 @@
 	Ctrl-r
 
 **Show whitespaces characters**
-	
-	:set list
 
 You can also add the following to your .vimrc to get better whitespaces characters
 
 	:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+	:set list
 
 **Insert New line and go into insert mode**
 
