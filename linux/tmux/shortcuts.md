@@ -18,3 +18,4 @@
 
 	Cntrl + B % : Vertical Split
 	Cntrl + B " : horizontal split
+	Prefix-key + x : Delete current pane
