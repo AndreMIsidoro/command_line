@@ -57,3 +57,15 @@ You can also add the following to your .vimrc to get better whitespaces characte
 **Write Comments in .vimrc**
 	
 	"	this is how a comment looks like in ~/.vimrc
+
+**Find and Replace**
+
+	You can fidn and replace text using the :substitute (:s) command.
+
+	:[range]s/{pattern}/{string}/[flags] [count]
+
+	The command searches each line in [range] for a {pattern}, and replaces it with a {string}. [count] is a positive integer that multiplies the command.
+
+	If no [range] and [count] are given, only the pattern found in the current line is replaced. The current line is the line where the cursor is placed.
+
+
