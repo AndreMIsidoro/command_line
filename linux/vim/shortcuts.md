@@ -1,8 +1,21 @@
 # Vim Shortcuts
 
-## Normal Mode
+## Text Objects
 
-### Cursor Movement
+	w : word
+	s : sentence
+	p : paragraph
+	t : tags
+
+## Motions
+
+	a : all
+	i : in
+	t : 'till
+	f : find forward
+	F : find backward
+
+## Movement
 
 	^ : Move cursor to first non blank character without going into insert mode
 	0 : Move cursor to the first column of line without going into insert mode
@@ -18,5 +31,38 @@
 	Cntrl + Y : Scroll the window up
 	Cntrl + F : Scroll down one page
 	Cntrl + B : Scroll up one page
+	Shift + A : Goes into insert mode at the end of the line in insert mode
+	Shift + i : Goes to the begin of the line in insert mode
 
+## Commands
 
+	d : delete(also cut)
+	c : change(delete, then palce in insert mode
+	y : yank(copy)
+	v : visually select
+
+{command}{text object|motion|movement}
+
+## Special Commands
+
+	. : repeats the previous command until the escape
+	dd : deletes(cuts) the current line
+	yy : yanks(copy) the current line
+	p : paste the current line in the buffer after
+	P : paste the current line in the buffer before
+	D : delete until the end of the line
+	Y : yanks(copies) until the end of the line
+	C : change until the end of the line
+## Normal Mode
+
+### Edit file
+
+	dw : delete word
+	db : delete word backwards
+	diw : delete in word
+	di[ : deletes everything that is inside [] , other delimeters can be used like ",)
+	daw : same as diw but also deletes the whitespaces surrounding the word
+	ciw : change(delete) word that the cursor is in and puts in insert mode
+	caw : same as ciw but also deletes the whitespaces surrounding the word
+	yi) : yank all text inside the parantheses
+	va" : visually select all inside " and including "
