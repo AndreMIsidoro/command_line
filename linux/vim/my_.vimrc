@@ -4,3 +4,6 @@ set list
 
 "	show line numbers
 set number
+
+"	show syntax highlights
+syntax on
