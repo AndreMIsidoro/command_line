@@ -6,16 +6,16 @@
 
 ### General Purpose
 
-	Cntrl + B ? : Show all shortcuts available
+	Prefix-key ? : Show all shortcuts available
 
 ### Window Shortcuts
 
-	Cntrl + B c : Create a new window
-	Cntrl + B n : Go to next window
-	Cntrl + B & : Kill Window
+	Prefix-key c : Create a new window
+	Prefix-key n : Go to next window
+	Prefix-key & : Kill Window
 
 ### Pane Shortcuts
 
-	Cntrl + B % : Vertical Split
-	Cntrl + B " : horizontal split
+	Prefix-key % : Vertical Split
+	Prefix-key " : horizontal split
 	Prefix-key + x : Delete current pane
