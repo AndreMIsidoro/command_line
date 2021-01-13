@@ -53,3 +53,7 @@ You can also add the following to your .vimrc to get better whitespaces characte
 
 	o - insert newline after
 	o - insert newline before
+
+**Write Comments in .vimrc**
+	
+	"	this is how a comment looks like in ~/.vimrc
