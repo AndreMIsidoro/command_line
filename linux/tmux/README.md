@@ -6,3 +6,7 @@ Tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 	<Prefix_key> + :	this brings the command prompt
 	:source-file ~/.tmux.conf
+
+**List all keybinds**
+
+	tmux list-keys
