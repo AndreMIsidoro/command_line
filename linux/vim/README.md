@@ -52,7 +52,7 @@ You can also add the following to your .vimrc to get better whitespaces characte
 **Insert New line and go into insert mode**
 
 	o - insert newline after
-	o - insert newline before
+	O - insert newline before
 
 **Write Comments in .vimrc**
 	
