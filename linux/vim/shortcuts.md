@@ -67,3 +67,5 @@
 	caw : same as ciw but also deletes the whitespaces surrounding the word
 	yi) : yank all text inside the parantheses
 	va" : visually select all inside " and including "
+	u : undo last change
+	Cntrl + r : redo last undo
