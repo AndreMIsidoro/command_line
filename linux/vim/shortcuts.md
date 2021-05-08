@@ -33,6 +33,7 @@
 	Cntrl + B : Scroll up one page
 	Shift + A : Goes into insert mode at the end of the line in insert mode
 	Shift + i : Goes to the begin of the line in insert mode
+	line_number : Jumps to specific line number
 
 ## Commands
 
