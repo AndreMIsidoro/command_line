@@ -8,4 +8,5 @@ Nmap ("Network Mapper") is a free and open source utility for network discovery 
 https://nmap.org/book/man-briefoptions.html
 
 **Script Scan**
+
 	-sC: equivalent to --script=default
