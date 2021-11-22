@@ -13,6 +13,7 @@
 	Prefix-key c : Create a new window
 	Prefix-key n : Go to next window
 	Prefix-key & : Kill Window
+	Prefix-key <window_number> : Go to window <windo_number>
 
 ### Pane Shortcuts
 
