@@ -7,3 +7,9 @@ set number
 
 "	show syntax highlights
 syntax on
+
+"	dicontinue vi
+set nocompatible
+
+"	enable plugins
+filetype plugin on
