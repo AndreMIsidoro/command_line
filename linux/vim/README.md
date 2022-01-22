@@ -76,3 +76,10 @@ You can also add the following to your .vimrc to get better whitespaces characte
 
 	file_name - uses regex and also supports tab completion
 	Note: Must use the configs in this repo. Does not work out of the box
+
+**Tag Jumpin**
+
+	Need to install ctags
+	do 'ctags -R .' on the folder that you want to tag
+	cntrl+] - jumps to the definition of the tag
+	cntrl+t - jump back
