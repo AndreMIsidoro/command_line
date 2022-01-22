@@ -68,4 +68,11 @@ You can also add the following to your .vimrc to get better whitespaces characte
 
 	If no [range] and [count] are given, only the pattern found in the current line is replaced. The current line is the line where the cursor is placed.
 
+**Find Files**
 
+	We can find files in the subfolder by doing
+
+	:find [file_name]
+
+	file_name - uses regex and also supports tab completion
+	Note: Must use the configs in this repo. Does not work out of the box
