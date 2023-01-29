@@ -9,13 +9,8 @@ https://nmap.org/book/man-briefoptions.html
 
 **Script Scan**
 
-	-sC: equivalent to --script=default
-
-**Service/Version Scan Detection**
-
+	-A: Enable OS detection, version detection, script scanning, and traceroute
+	-sC: equivalent to --script=default; runs default scripts
 	-sV: Probe open ports to determine service/version info
-
-**Output**
-
 	-oA <basename>: Output in the three major formats at once
 
