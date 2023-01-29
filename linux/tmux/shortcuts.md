@@ -20,3 +20,6 @@
 	Prefix-key % : Vertical Split
 	Prefix-key " : horizontal split
 	Prefix-key + x : Delete current pane
+
+## Scroll
+	Prefix-key [ : Starts navigation mode. After that use vim/less navigation shortcuts to move around. q to quit
