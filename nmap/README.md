@@ -13,4 +13,5 @@ https://nmap.org/book/man-briefoptions.html
 	-sC: equivalent to --script=default; runs default scripts
 	-sV: Probe open ports to determine service/version info
 	-oA <basename>: Output in the three major formats at once
-
+	--min-rate : This is used to specify the minimum number of packets that Nmap should
+send per second; it speeds up the scan as the number goes higher

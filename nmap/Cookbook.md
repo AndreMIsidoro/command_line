@@ -46,3 +46,6 @@
 	if -sL doens't work then
 
 	nmap -T5 -F 172.28.23.*
+
+**Faster Discovery Scan**
+	map -p- --min-rate=1000 -sV 10.129.25.37
