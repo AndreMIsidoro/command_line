@@ -1,2 +1,2 @@
 ### Download a File
-	sync <targe_ip>::<available_directory>/<file> # download a file
+	sync <targe_ip>::<available_directory>/<file> <file> # download a file
