@@ -19,3 +19,11 @@ The main stages of an rsync transfer are the following:
 	1. rsync establishes a connection to the remote host and spawns another rsync receiver process.
 	2. The sender and receiver processes compare what files have changed.
 	3. What has changed gets updated on the remote host.
+
+##Default Port
+
+	873
+
+##Command Options
+
+	--list-only:  list all the available directories 
