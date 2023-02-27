@@ -23,3 +23,12 @@
 
 ## Scroll
 	Prefix-key [ : Starts navigation mode. After that use vim/less navigation shortcuts to move around. q to quit
+
+## Copy and Paste
+
+	Enter navigation mode with Prefix-key + [, and then use vim shortcuts to copy
+
+
+asdasd
+
+	To paste, quit navigation mode with q, and then use prefix-key + ]
