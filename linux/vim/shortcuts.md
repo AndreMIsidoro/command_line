@@ -69,3 +69,8 @@
 	va" : visually select all inside " and including "
 	u : undo last change
 	Cntrl + r : redo last undo
+
+### Find
+	/ : enters find mode (uses regex to find). Enter to start search
+	n: Finds next occurence
+	N: Finds previous occurrence
