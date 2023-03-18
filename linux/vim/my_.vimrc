@@ -2,6 +2,9 @@
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
+"	sets tabswidth as 4
+set tabstop=4
+
 "	show line numbers
 set number
 
