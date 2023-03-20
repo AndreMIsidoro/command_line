@@ -64,6 +64,7 @@
 	di[ : deletes everything that is inside [] , other delimeters can be used like ",)
 	daw : same as diw but also deletes the whitespaces surrounding the word
 	dt( : detetes everything until "till" if finds ( , ( can be replaced with other character
+    D : deletes till the end of the line
 	ciw : change(delete) word that the cursor is in and puts in insert mode
 	caw : same as ciw but also deletes the whitespaces surrounding the word
 	yi) : yank all text inside the parantheses
