@@ -4,6 +4,7 @@ set list
 
 "	sets tabswidth as 4
 set tabstop=4
+set shiftwidth=4
 
 "	show line numbers
 set number
