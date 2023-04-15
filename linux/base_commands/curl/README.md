@@ -7,6 +7,7 @@
 	-o: to specify desired output
 		-o - prints to terminal
 		-o /path/to/file prints to file
+    -v: verbose mode
 
 
 **Other Informtaion**
