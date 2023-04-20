@@ -19,3 +19,10 @@ https://nmap.org/book/man-briefoptions.html
 	-sC: equivalent to --script=default; runs default scripts
 	-sV: Probe open ports to determine service/version info
 	-oA <basename>: Output in the three major formats at once
+
+
+## Use nmap with a proxy (like Burp or ZAP)
+
+Just add the --proxies flag to specify the proxy to be used:
+
+	nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
