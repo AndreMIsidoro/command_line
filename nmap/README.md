@@ -18,6 +18,7 @@ https://nmap.org/book/man-briefoptions.html
 	-A: Enable OS detection, version detection, script scanning, and traceroute
 	-sC: equivalent to --script=default; runs default scripts
 	-sV: Probe open ports to determine service/version info
+    -sS: Stealth scan. It's the default scan with root privileges
 	-oA <basename>: Output in the three major formats at once
 
 
