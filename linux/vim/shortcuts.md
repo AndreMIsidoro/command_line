@@ -49,10 +49,11 @@
 	. : repeats the previous command until the escape
 	dd : deletes(cuts) the current line
 	yy : yanks(copy) the current line
+	Y : yanks(copies) until the end of the line
+	yiw: copies word
 	p : paste the current line in the buffer after
 	P : paste the current line in the buffer before
 	D : delete until the end of the line
-	Y : yanks(copies) until the end of the line
 	C : change until the end of the line
 ## Normal Mode
 
