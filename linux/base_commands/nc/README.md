@@ -12,3 +12,9 @@ Netcat functions as a back-end tool that allows for port scanning and port liste
 	-n - numeric-only IP addresses, no DNS
 	-z - nc just scans for listening daemons, without sending any data to them
 	-d - does not attempt to read from stdin. Can help client to close the connection after r	reading the data
+
+
+## Cookbook
+
+	Start a listening server (many times use for reverse shells, etx)
+	nc -lvnp <port>
