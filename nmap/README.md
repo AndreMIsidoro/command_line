@@ -20,6 +20,7 @@ https://nmap.org/book/man-briefoptions.html
 	-sV: Probe open ports to determine service/version info
     -sS: Stealth scan. It's the default scan with root privileges
 	-oA <basename>: Output in the three major formats at once
+	-Pn : Treat all hosts as online -- skip host discovery (good when dealing with firewalls)
 
 
 ## Use nmap with a proxy (like Burp or ZAP)
