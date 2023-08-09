@@ -1,4 +1,12 @@
-##find
+# Find
+
+
+
+## Cookbook
+
+Ignore permission denied
+
+	find / -type f -name 'pattern' 2>/dev/null
 
 **find and delete certain files**
 
