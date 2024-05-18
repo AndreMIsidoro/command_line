@@ -12,6 +12,7 @@ Netcat functions as a back-end tool that allows for port scanning and port liste
 	-n - numeric-only IP addresses, no DNS
 	-z - nc just scans for listening daemons, without sending any data to them
 	-d - does not attempt to read from stdin. Can help client to close the connection after r	reading the data
+	-e <filename> - specifies a file to exec after after connection, redirects all inputs and outputs to/from the file through the connection
 
 
 ## Cookbook
@@ -28,3 +29,7 @@ Send files between remote hosts:
 	Send the file in the other host:
 
 	nc -nv <receiver_ip> <receiver_port> < wget.exe
+
+Receive commands in an host:
+
+	nv -nlvp 4444 -e /bin/bash
