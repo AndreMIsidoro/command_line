@@ -16,5 +16,15 @@ Netcat functions as a back-end tool that allows for port scanning and port liste
 
 ## Cookbook
 
-	Start a listening server (many times use for reverse shells, etx)
+Start a listening server (many times use for reverse shells, etx)
 	nc -lvnp <port>
+
+Send files between remote hosts:
+
+	Start a connectiong in the host that is going to receive the file like :
+
+	nc -nlvp 4444 > wget.exe
+
+	Send the file in the other host:
+
+	nc -nv <receiver_ip> <receiver_port> < wget.exe
