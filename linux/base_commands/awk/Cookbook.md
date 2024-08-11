@@ -100,6 +100,12 @@
 
     gawk END{print}
 
+**Search for Pattern**
+
+    awk '/manager/ {print}' data.txt
+
+    prints the line that contains the word 'manager' in it
+
 
 ### Examples of full gawk commands
 
