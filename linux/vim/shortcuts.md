@@ -34,6 +34,9 @@
 	Shift + A : Goes into insert mode at the end of the line in insert mode
 	Shift + i : Goes to the begin of the line in insert mode
 	line_number : Jumps to specific line number
+	number + <jk>  : moves up or down number of lines. ex: 12j moves 12 lines down
+
+	https://learnvim.irian.to/basics/moving_in_file
 
 ## Commands
 
@@ -55,6 +58,7 @@
 	P : paste the current line in the buffer before
 	D : delete until the end of the line
 	C : change until the end of the line
+
 ## Normal Mode
 
 ### Edit file

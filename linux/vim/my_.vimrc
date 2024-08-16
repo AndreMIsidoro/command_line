@@ -7,7 +7,7 @@ set tabstop=4
 set shiftwidth=4
 
 "	show line numbers
-set number
+set number relativenumber
 
 "	show syntax highlights
 syntax on
