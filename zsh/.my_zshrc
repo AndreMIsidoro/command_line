@@ -1,5 +1,5 @@
 # configure key keybindings
 # need to change this from the default emacs keybinds
-bindkey -v                                        # vim key bindings
+#bindkey -v                                        # vim key bindings
 
 alias xclip='xclip -selection clipboard'
