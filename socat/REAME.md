@@ -4,9 +4,14 @@
 
 	apt-get install socat
 
-## Usesage
+## Usage
 
+Let's usa as example a remote machine that has an app listening in port 8000 that only accepts localhost requests:
 
-	socat TCP4-LISTEN:5001,fork TCP4:localhost:5000
+In The remote machine we do:
 
-This sends all incoming traffic in port 5001 to 5000
+	socat TCP4-LISTEN:8001,fork TCP4:localhost:8000
+
+And in the local machine we do:
+
+	socat TCP4-LISTEN:8000,fork TCP4:<remote_machine_ip>:8001
