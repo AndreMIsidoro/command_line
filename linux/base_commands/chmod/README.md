@@ -1,3 +1,11 @@
+# chmod
+
+## Command Options
+
+	+s <file_path> - If someone else runs the file, they will run the file as the user/group who created it.
+
+
+
 There are four OCTAL (0..7) digits, which control the file permissions. But often, only three are used. If you use 600 it equals 0600. 
 The missing digit is appended at the beginning of the number.
 Each of three digits described permissions. Positionin the number defines to which group permissions do apply.
