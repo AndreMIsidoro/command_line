@@ -9,3 +9,7 @@ Download and execute file using powershell:
 Search for files
 
 	Get-ChildItem -Path "C:\Path\To\Search" -Recurse -Filter "filename*"
+
+Show owners of files and dirs
+
+	cmd.exe /c "dir /q"
