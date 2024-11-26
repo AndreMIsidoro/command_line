@@ -8,7 +8,7 @@ Download and execute file using powershell:
 
 Search for files
 
-	Get-ChildItem -Path "C:\Path\To\Search" -Recurse -Filter "filename*"
+	Get-ChildItem -force -Path "C:\Path\To\Search" -Recurse -Filter "filename*"
 
 Show owners of files and dirs
 
