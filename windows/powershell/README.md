@@ -13,4 +13,4 @@ Search for files
 Show owners of files and dirs
 
 	cmd.exe /c "dir /q"
-	get-acl -Path <path_to_file_or_dir>
+	get-acl -Path <path_to_file_or_dir> | select *
