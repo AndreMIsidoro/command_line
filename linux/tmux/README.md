@@ -10,3 +10,7 @@ Tmux is a terminal multiplexer. It lets you switch easily between several progra
 **List all keybinds**
 
 	tmux list-keys
+
+**Rename Window**
+
+	tmux rename-window <window-name>

@@ -7,6 +7,7 @@
 ### General Purpose
 
 	Prefix-key ? : Show all shortcuts available
+	Prefix-key , : Rename window
 
 ### Window Shortcuts
 
