@@ -1,3 +1,9 @@
+# Linux Cookbook commands
+
+**Remove all whitespaces from a file**
+
+    tr -d '[:space:]' < input_file > output_file
+
 **Find lines in file and count them:**
 
 	$ grep -e “PATTERN” file | sort | uniq -c
