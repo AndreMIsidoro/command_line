@@ -14,3 +14,7 @@ Show owners of files and dirs
 
 	cmd.exe /c "dir /q"
 	get-acl -Path <path_to_file_or_dir> | select *
+
+Extract zip file
+
+	Expand-Archive -Path "C:\path\to\your\file.zip" -DestinationPath "C:\path\to\extract\folder"
