@@ -3,3 +3,4 @@
 #bindkey -v                                        # vim key bindings
 
 alias xclip='xclip -selection clipboard'
+alias bell='paplay /usr/share/sounds/freedesktop/stereo/complete.oga'
