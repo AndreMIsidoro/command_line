@@ -58,6 +58,7 @@
 	P : paste the current line in the buffer before
 	D : delete until the end of the line
 	C : change until the end of the line
+	"+y : Copy to clipboard
 
 ## Normal Mode
 
